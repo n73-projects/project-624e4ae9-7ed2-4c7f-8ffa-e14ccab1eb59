@@ -6,7 +6,7 @@ import { CheckSquare } from 'lucide-react';
 
 export function TodoApp() {
   return (
-    <div className="min-h-screen bg-background py-8 px-4">
+    <div className="min-h-screen bg-background text-foreground py-8 px-4">
       <div className="max-w-2xl mx-auto">
         {/* Header */}
         <div className="text-center mb-8">
@@ -14,7 +14,7 @@ export function TodoApp() {
             <div className="p-2 bg-primary rounded-lg">
               <CheckSquare className="h-6 w-6 text-primary-foreground" />
             </div>
-            <h1 className="text-3xl font-bold tracking-tight">Todo App</h1>
+            <h1 className="text-3xl font-bold tracking-tight text-foreground">Todo App</h1>
           </div>
           <p className="text-muted-foreground">
             Stay organized and productive with your modern todo list
